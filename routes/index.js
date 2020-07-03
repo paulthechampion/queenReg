@@ -29,7 +29,7 @@ router.post('/', async(req,res)=>{
 
     try{
         const newPeople= await people.save();
-        res.redirect('/');
+        res.redirect('/all');
     }catch{
         res.render('reg/new',{
             people:people,
