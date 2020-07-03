@@ -1,0 +1,37 @@
+<div class="names">
+    <div class="namess">
+<label>First Name</label><br>
+<input type="text" name="firstName" placeholder="First Name" value="<%=people.firstName%>">
+</div>
+<div class="namess">
+<label>Last Name</label><br>
+<input type="text" name="lastName" placeholder="Last Name" value="<%=people.lastName%>">
+</div>
+</div>
+
+<div class="pe">
+    <div>
+<label>Pronoun</label><br>
+<input type="text" name="pronoun" placeholder="He/She/They....etc" value="<%=people.pronoun%>">
+    </div>
+
+    <div>
+<label>Email Adress</label><br>
+<input type="email" name="email" placeholder="Email Adress" value="<%=people.email%>">
+    </div>
+</div>
+<div class="dp">
+    <div>
+<label>Date of Birth</label><br>
+<input type="date" name="dob" placeholder="Date of Birth"
+ value="<%=people.dob == null ? '':
+             people.dob.toLocaleString().split(',')[0]%>">
+    </div>
+
+
+    <div>
+<label>Phone Number</label><br>
+<input type="number" name="phoneN" placeholder="Your recent Phone number" value="<%=people.phoneN%>">
+    </div>
+</div>
+

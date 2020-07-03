@@ -1,0 +1,28 @@
+<h2 class="list">List of Registered Individuals</h2>
+<table>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Pronoun</th>
+        <th>Email</th>
+        <th>Date of Birth</th>
+        <th>Phone Number</th>
+    </tr>
+
+</thead>
+
+<tbody>
+
+<% peoples.forEach(people=>{%>
+    <tr>
+        <td><%=people.firstName%> <%=people.lastName%></td>
+        <td><%=people.pronoun%></td>
+        <td><%=people.email%></td>
+        <td><%=people.dob.toISOString().split('T')[0]%></td>
+        <td><%=people.phoneN%></td>
+        <td><button class="danger-btn">Remove</button></td>
+    </tr>
+<%})%>
+
+</tbody>
+</table>
