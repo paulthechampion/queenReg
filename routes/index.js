@@ -2,7 +2,7 @@ const express= require("express");
 const router= express.Router();
 const People = require("../module/reg")
 
-router.get('/', async(req,res)=>{
+router.get('/all', async(req,res)=>{
     try{
         const peoples= await People.find();
         res.render("index",{peoples:peoples});
@@ -12,7 +12,7 @@ router.get('/', async(req,res)=>{
 
 })
 
-router.get('/new', (req,res)=>{
+router.get('/', (req,res)=>{
     res.render("reg/new",{people:new People()});
     
 })
