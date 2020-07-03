@@ -32,4 +32,4 @@ button:hover{background-color:white;color:rgb(14, 179, 230);border:1px solid rgb
      width:5em;box-shadow: 1px 1px 0px 0px grey;border-radius: 5px;
      color:rgb(223, 226, 5);cursor: pointer;}
 .canc:hover{background-color:white;color:rgb(14, 179, 230);border:1px solid rgb(14, 179, 230);}
-footer{height:10em;background-color:rgb(95, 95, 95);margin-top:30px;color:white}
+footer{height:10em;background-color:rgb(95, 95, 95);margin-top:30px;color:white;position: absolute;bottom: 0px;}
