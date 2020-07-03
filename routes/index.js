@@ -17,7 +17,7 @@ router.get('/', (req,res)=>{
     
 })
 
-router.post('/add', async(req,res)=>{
+router.post('/all', async(req,res)=>{
     const people= new People({
         firstName:req.body.firstName,
         lastName: req.body.lastName,
