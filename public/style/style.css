@@ -14,14 +14,15 @@ input{padding:10px; margin:10px; width:70%; border-radius:5px}
 .names{display: flex;flex-wrap: wrap;text-align: center; position: relative;}
 .pe{display: flex;flex-wrap: wrap;text-align: center; position: relative;}
 .dp{display: flex;flex-wrap: wrap;text-align: center; position: relative;}
-.pfromulated{text-align: center;margin-top:2%}
+.pfromulated{text-align: center;margin-top:2%;justify-content: center;}
 .logo{height:100px;width:150px;position: absolute; left:2px}
 table{border-collapse: collapse;background-color: yellow;margin:auto; margin-top:5px;width:100%}
 table,th,td{border:1px solid rgb(0, 0, 0)}
 th{font-size: 1.2em;}
-h2{margin:0px}
+h2{margin:0;}
 .list{margin-top:.5em;}
-.about{box-shadow: 2px 0px 2px 0px grey;}
+.about{box-shadow: 2px 0px 2px 0px rgb(114, 113, 113);margin:0px;}
+.aboutM{text-align: left;margin:0;margin-top:5px;margin-left:8px;color:grey}
 label{text-align: left;}
 button{background-color:rgb(14, 179, 230);height:2em;border:none; 
      widows: 4.5em;box-shadow: 1px 1px 0px 0px grey;border-radius: 5px;
@@ -46,3 +47,4 @@ height: 100%;
 main {min-height: 100%;margin-bottom: -100px;}
 main:after {content: "";display: block;height: 100px;
 }
+section{margin:0;}
