@@ -6,8 +6,8 @@ header{border-bottom: 2px solid rgb(189, 176, 1);height:6.5em}
      border-radius: 20px;padding:10px;box-shadow: 2px 2px 0px 0px grey;}
 @media only screen and (max-width:480px) {
   .fromulated{width:60%}
-  .input{
-       width:50%
+  input{
+       width:10%
   }
         }
 input{padding:10px; margin:10px; width:70%; border-radius:5px}
